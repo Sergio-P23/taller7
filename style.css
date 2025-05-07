@@ -1,0 +1,18 @@
+body{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+contact_css{   
+    color: lime;
+    background-color: black;
+}
+
+form {
+    width: 100%;
+    padding: 50px;
+}
+label, input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
