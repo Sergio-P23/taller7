@@ -1,8 +1,8 @@
 contact_js = function enviar() {
-    let name = document.getElementById('name').value;
     let email = document.getElementById('email').value;
+    let msg = document.getElementById('msg').value;
     alert("Gracias por contactarnos " + email);
-    document.getElementById('msg').innerHTML = "<script>alert('XSS en mensaje')</script>";
+    document.getElementById('output').textContent = "Tu mensaje fue: " + msg;
 }
 
 
